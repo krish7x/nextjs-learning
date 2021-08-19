@@ -1,9 +1,11 @@
-import styles from "../styles/Home.module.css";
+import React from "react";
 
-export default function Home() {
+const App = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>hello world</h1>
     </div>
   );
-}
+};
+
+export default App;
