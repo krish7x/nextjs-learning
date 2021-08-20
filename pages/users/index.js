@@ -1,3 +1,4 @@
+import User from "../../components/user";
 const Users = ({ users, todos }) => {
   console.log(todos);
   return (
@@ -20,7 +21,7 @@ const Users = ({ users, todos }) => {
             alignItems: "center",
           }}>
           {users?.map((data) => (
-            <p>{data?.name}</p>
+            <User user={data} />
           ))}
         </div>
         <div
